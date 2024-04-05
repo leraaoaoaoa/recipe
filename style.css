@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    max-width: 740px;
+    margin-inline: auto;
+    margin-block: 6rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.preparation-block {
+    background-color: hsl(330, 100%, 98%);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+ul {
+    list-style: square;
+}
+
+.preparation-block h2 {
+    font-family: inherit;
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-block li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+ul,
+ol {
+    padding-left: 1.3rem;
+}
+
+li {
+    padding-left: 1rem;
+}
+
+ul li::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-left: 1rem;
+    padding-block: 0.5rem;
+}
+
+td:nth-child(2n) {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+hr {
+    border: 0.5px solid hsl(30, 18%, 87%);
+}
